@@ -15,6 +15,7 @@ function addItem(item){
 function listItems(inbasket){
     for (let i=0; i<=inbasket.length; i++){
         console.log(inbasket[i])
+        console.log( 'The basket has '+i+' items in it');
     }
 } //end listItems
 
@@ -30,9 +31,8 @@ console.log (addItem('Soda'));
 console.log(basket);
 
 listItems(basket)
-addItem('Soup');
-addItem('Candy');
-addItem('Steak');
+console.log(addItem('Soup'));
+console.log(addItem('Candy'));
 
 listItems(basket);
 
